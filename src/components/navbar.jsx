@@ -36,6 +36,7 @@ function Navbar() {
 
         <nav id="main-navigation" className={`nav-links${menuOpen ? " nav-links-open" : ""}`} aria-label="ناوبری اصلی">
           <Link to="/" onClick={closeMenu}>خانه</Link>
+          <Link to="/project" onClick={closeMenu}>معرفی پروژه</Link>
           <a href="/#about" onClick={closeMenu}>داستان ما</a>
           <a href="/#how-to-help" onClick={closeMenu}>روش حمایت</a>
           {isLoggedIn ? (

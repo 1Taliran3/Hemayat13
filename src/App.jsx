@@ -10,6 +10,7 @@ import Register from "./pages/register.jsx";
 import Donate from "./pages/donate.jsx";
 import Dashboard from "./pages/dashboard.jsx";
 import NotFound from "./pages/notfound.jsx";
+import Project from "./pages/project.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/project" element={<Project />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/donate" element={<Donate />} />

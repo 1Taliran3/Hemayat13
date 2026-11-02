@@ -13,6 +13,7 @@ function Footer() {
         </div>
         <div className="footer-links" aria-label="پیوندهای سایت">
           <Link to="/">صفحه اصلی</Link>
+          <Link to="/project">معرفی پروژه</Link>
           <Link to="/donate">روش حمایت</Link>
           <a href="/#about">درباره ما</a>
           <Link to="/register">ساخت حساب نمایشی</Link>
